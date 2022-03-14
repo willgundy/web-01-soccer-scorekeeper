@@ -18,6 +18,8 @@ export function renderTeam(name, score) {
 
     nameDiv.textContent = name;
     scoreDiv.textContent = score;
+    nameDiv.classList.add('name');
+    scoreDiv.classList.add('score');
 
     teamDiv.append(nameDiv, scoreDiv);
 
