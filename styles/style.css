@@ -77,7 +77,6 @@ p {
     margin: var(--gutter);
 }
 
-
 #past-games-container {
     display: flex;
     flex-wrap: wrap;
